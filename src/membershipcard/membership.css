@@ -1,0 +1,154 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.maincontainermembership{
+   width: 100%;
+   height: 90%;
+}
+.membershipcard {
+   width: 100%;
+height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 100px;
+   padding: 50px;
+   color: white;
+}
+
+
+.cardcontainer {
+   width: 550px;
+   height: 300px;
+   box-shadow: 0px 0px 3px 0px black;
+   border-radius: 10px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+
+.heading {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 50px;
+
+}
+
+.heading h3 {
+   font-family: sans-serif;
+   letter-spacing: 5px;
+   color: #d4af37;
+   font-weight: 400;
+}
+
+.imageandnamesection {
+   display: flex;
+   gap: 30px;
+   padding: 20px 50px;
+}
+
+.userimage img {
+   width: 80px;
+   height: 80px;
+}
+
+.profilename {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+
+.line {
+   width: 100%;
+   background-color: whitesmoke;
+   text-align: center;
+   padding: 5px;
+}
+
+.line h2 {
+   color: black;
+   letter-spacing: 5px;
+}
+
+.Greeting {
+   padding: 20px;
+
+}
+
+.Greeting p {
+   font-size: 8px;
+}
+
+.cardcontainer2 {
+   width: 550px;
+   height: 300px;
+   box-shadow: 0px 0px 3px 0px black;
+   border-radius: 10px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 30px 0px;
+}
+
+
+.userdetailsback {
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 20px;
+   padding-top: 40px;
+}
+
+.line4 {
+   width: 100%;
+   background-color: whitesmoke;
+   text-align: center;
+   padding: 10px;
+}
+
+.line4 h2 {
+   color: black;
+}
+
+
+.cards {
+   width: 100%;
+   /* height: 80vh; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+
+.buttondownload {
+   width: 100%;
+   display: flex;
+   justify-content:center;
+   gap: 20px;
+}
+
+
+
+.buttondownload button {
+   width: 200px;
+   height: 50px;
+   background-color: #0c0c0c;
+   border: none;
+   font-size: 20px;
+   color: white;
+   border-radius: 10px;
+}
+
+.buttondownload button:hover {
+   background-color: green;
+}
